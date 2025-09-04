@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopLite • Checkout</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="container">
+    <h1>ShopLite</h1>
+    <nav>
+      <a href="index.html">Products</a>
+      <a href="checkout.html">Cart / Checkout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Your Cart</h2>
+    <section id="cartItems" class="cart-list"></section>
+    <div class="summary">
+      <div><strong>Subtotal:</strong> ₹<span id="subtotal">0</span></div>
+      <div><strong>Delivery:</strong> ₹<span id="delivery">0</span></div>
+      <div><strong>Total:</strong> ₹<span id="total">0</span></div>
+      <div class="actions">
+        <button id="clearCart" class="danger">Clear Cart</button>
+        <button id="placeOrder" class="primary">Place Order (Demo)</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> ShopLite • Demo</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
